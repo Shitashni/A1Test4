@@ -1,0 +1,126 @@
+﻿@model IEnumerable<HandicraftStore.Models.Orders>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h5>Manage Orders</h5>
+<br />
+
+
+    <div id="tab1" class="tab-content p-3 border-right border-left">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Products)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Quantity)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Amount)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CreatedDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.OrderStatus)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if(item.OrderStatus =="Pending")
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Email)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Products.Description)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Quantity)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Amount)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CreatedDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.OrderStatus)
+                            </td>
+                            <td>
+                                <a asp-action="UpdateOrderStatus" asp-route-id="@item.Id" class="btn btn-primary">Approve Order</a>
+                                <a asp-action="DeclineOrder" asp-route-id="@item.Id" class="btn btn-secondary">Decline Order</a>
+                               @* <input type="submit" value="Approve Order" onclick="UpdateOrderStatus('@item.Id', 'A')" class="btn btn-primary" /> |
+                                <input type="submit" value="Decline Order" onclick="UpdateOrderStatus('@item.Id', 'D')" class="btn btn-primary" />
+*@
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        
+                    }
+
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+
+            $('.tabs a').click(function () {
+                var tabId = $(this).attr('href').substr(1);
+                $('.tab-content').hide();
+                $('#' + tabId).show();
+            });
+
+            // Show the first tab by default
+            $('.nav li:first-child a').click();
+
+
+            $('.nav a').click(function () {
+                var tabId = $(this).attr('href').substr(1);
+                $('.tab-content').hide();
+                $('#' + tabId).show();
+            });
+
+            // Show the first tab by default
+            $('.nav li:first-child a').click();
+        });
+
+        function UpdateOrderStatus(Id, stat) {
+
+        $.ajax({
+                url: "@Url.Action("UpdateOrderStatus", "Orders")",
+            type: "POST",
+                data: { id: Id, Orderstatus: stat },
+            //
+            //success: function (data) {
+            //    alert("Order Approved Successfully");
+            //}
+            //,
+            //error: function (data) {
+            //    alert("error", data.responseText);
+            //}
+        });
+        }
+
+    </script>
+
+}

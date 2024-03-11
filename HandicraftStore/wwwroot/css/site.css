@@ -1,0 +1,32 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+.errorClass {
+    border: 1px solid red;
+}
+html {
+  position: relative;
+  min-height: 75%;
+}
+
+body {
+    margin-bottom: 60px;
+    min-height: 100vh;
+   /* background: url(../Images/shoppingcart.png) no-repeat;*/
+    background-size: cover;
+    background-position: center;
+}
+.page-background-class {
+    margin-bottom: 60px;
+    min-height: 100vh;
+    background: url('../Images/images2.jfif') no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative
+}

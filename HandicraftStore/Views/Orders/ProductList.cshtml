@@ -1,0 +1,225 @@
+﻿@model IEnumerable<HandicraftStore.Models.Product>
+
+@{
+    ViewData["Title"] = "ProductList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div id="tab1" class="tab-content p-3 border-right border-left">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 col-xs-6 boarder-primary mb-3">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-12">
+                                <div class="card-header text-white bg-secondary">
+                                    <p class="card-text">
+                                        <h5 class="card-title">
+                                            @item.Description
+                                            <a class="text-white float-right"><i class="bi bi-penci-square"></i></a>
+                                        </h5>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="~/Images/@item.ImageUrl" style='width: 100px; height: 100px;' width="100%" id="ImageUrl" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <p class="card-text" id="Desc">@item.Description</p>
+                                    <p class="card-text">@item.Amount</p>
+                               
+                               
+                                    @*<p class="card-text" id="ItemId">@item.Id</p>*@
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card-footer">
+                                   @* <p class="card-text">abc</p>*@
+
+                                <input type="button" class="btn btn-sm btn-info" value="Add to Cart" id="AddCart" onclick="AddtoCart('@item.Id')" />
+                                    <a asp-action="GotoCart" asp-controller="Orders" class="btn btn-sm btn-primary">View Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+
+@section Scripts {
+    <script>
+        var cartlist;
+
+        function Checkout() {
+            $.ajax({
+                url: "@Url.Action("GotoCart", "Orders")",
+                type: "POST"
+               
+            });
+        }
+
+
+        function AddtoCart(id) {
+            $("#cart .item").each(function () {
+                var price = parseFloat($(this).data("price"));
+                cartValue += price;
+            });
+        
+
+            $.ajax({
+                url: "@Url.Action("SaveCartItems", "Orders")",
+                type: "POST",
+                data: { id: id },
+                //data: { id: Id, desc: Desc, amount: Amt, imageurl: imageurl },
+                //success: function (data) {
+                //    alert(data);
+                //}
+                //,
+                //error: function (data) {
+                //    alert("error", data.responseText);
+                //}
+            });
+           
+        }
+        function productDelete(ctl) {
+            $(ctl).parents("tr").remove();
+        }
+
+        function SaveCartItems() {
+            var rowCount = $('#CartItems tr').length;
+            alert(rowCount);
+
+            $("#CartItems tr:gt(0)").each(function () {
+                var Id = $(this).find("td").eq(0).html();
+                var imageurl = $(this).find("td").eq(1).html();
+                var Desc = $(this).find("td").eq(2).html();
+                var Amt = $(this).find("td").eq(3).html();
+
+                $.ajax({
+                    url: "@Url.Action("SaveCartItems", "Orders")",
+                    type: "POST",
+                    data: { id: Id, desc: Desc, amount: Amt, imageurl: imageurl },
+                    //
+                    success: function (data) {
+                        alert(data);
+                    }
+                    ,
+                    error: function (data) {
+                        alert("error", data.responseText);
+                    }
+                });
+                alert(quantity1);
+
+            });
+
+
+        }
+
+        $('#Save').click(function () {
+            var url = "/Orders/GetProducts";
+            $.getJSON(url, null, function (data) {
+                $(data).each(function () {
+                    alert(this.Description);
+                })
+
+                $("#rData").html(data);
+
+                debugger;
+            });
+        })
+
+
+        $(document).ready(function () {
+            $('#submitbutton').click(function (e) {
+                var pos = $(this).parent().find('.card-text').val();
+                alert(pos);
+               
+            });
+
+            $('.nav a').click(function () {
+                var tabId = $(this).attr('href').substr(1);
+                $('.tab-content').hide();
+                $('#' + tabId).show();
+            });
+
+            // Show the first tab by default
+            $('.nav li:first-child a').click();
+
+            $("#Submit").click(function (e) {
+                if ($("#CartItems tbody").length == 0)
+                    alert("Username cannot be empty");
+                else {
+ 
+
+                    $("#CartItems tr").each(function () {
+                        var quantity1 = $(this).find("td").eq(1).html();
+                        if (quantity1 == "undefined") {
+
+                        }
+                        else {
+                    
+                            alert(quantity1);
+                        }
+                      
+                    });
+
+                   
+                }
+                return false;
+            });
+
+            $.ajax({
+                type: "Post",
+                url: "/Orders/GetProducts",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    if ($("#productTable tbody").length == 0) {
+                        $("#productTable").append("<tbody></tbody>");
+                    }
+
+                    $(response).each(function () {
+                        $("#productTable tbody").append("<tr>" +
+                            "<td>" + this.id + "</td>" +
+                            "<td>" + this.description + "</td>" +
+                            "<td>" + this.amount + "</td>" +
+                            "<td>" +
+                            "<img src='~/Images/" + this.imageurl + "' style = 'width:75px;height:75px;' />" + "</td>" +
+                            "<td>" +
+                            "<button type='button' onclick=''productDelete(this);'' class='btn btn-default'>" +
+                            "<span class='glyphicon glyphicon-remove' />" +
+                            "</button>" +
+                            "</td>" +
+                            //            "<td>" +
+                            //            "<button type=" + "button" + "  onclick = " + "productDelete(this);" +
+                            //         "class= " + "btn btn-default " + ">" +
+                            //"<span class='glyphicon glyphicon-remove' />" +
+                            //            "</button>" +
+                            //            "</td>" +
+                            "</tr>");
+
+                        // alert("<img src='~/Images/" + this.imageUrl + "' style = 'width:75px;height:75px;' />");
+
+                    });
+                },
+                failure: function (response) {
+                    alert(response.responseText);
+                },
+                error: function (response) {
+                    alert(response.responseText);
+                }
+            });
+
+       })
+
+
+
+
+    </script>
+}
+
+

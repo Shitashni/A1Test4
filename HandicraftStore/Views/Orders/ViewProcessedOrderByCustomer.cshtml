@@ -1,0 +1,58 @@
+﻿@model IEnumerable<HandicraftStore.Models.Orders>
+
+@{
+    ViewData["Title"] = "ViewProcessedOrderByCustomer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h5>ViewProcessed Order</h5>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Image
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products.Description)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+          
+            <th>
+                @Html.DisplayNameFor(model => model.OrderStatus)
+            </th>
+       
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    <img src="~/Images/@item.Products.ImageUrl" style="width:75px;height:75px;" />
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Products.Description)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderStatus)
+            </td>
+
+        </tr>
+}
+    </tbody>
+</table>

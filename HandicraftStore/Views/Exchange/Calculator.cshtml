@@ -1,0 +1,108 @@
+﻿@model HandicraftStore.Models.ExchangeRate
+@{
+    ViewData["Title"] = "GotoCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>Money Transfer</h4>
+
+ 
+    <table>
+        <tr>
+            <td>Send money to</td>
+            <td>@Html.DropDownList("Id", ViewBag.rate as SelectList,"--Select--",  new {  id="Country", style="width:100px;" })  </td>
+        </tr>
+        <tr>
+            <td>Exchange Rate</td>
+            <td><input name="Rate" type="number" id="Rate" readonly style="width:100px" /></td>
+        </tr>
+        <tr>
+            <td>Enter Amount in NZ dollars</td>
+            <td>@Html.TextBox("amount", 0.00, new { required = "required", type="number", style="width:100px" })</td>
+        </tr>
+    </table>
+    <br />
+    <input type="button" value="Calculate" onclick="CalcAmt();" style="font-weight: bolder; font-family:Calibri; color:white; Background:red" />
+ <br />
+    <br />
+    <div class="summary" style="display:none; font-weight:bold; font-family:Calibri; color:#616161">
+    <table>
+        <thead style="column-span:2;">Summary</thead>
+        <tr>
+            <td>Amount to Transfer </td>
+                <td id="TransfrAmt"></td>
+        </tr>
+        <tr>
+            <td>Exchange Rate</td>
+            <td id="ExchangeRate"></td>
+        </tr>
+        <tr>
+            <td>Transfer Fee</td>
+            <td>$2.00 NZD</td>
+        </tr>
+            <tr style="color:red">
+            <td>Total Cost</td>
+            <td id="Totalcost"></td>
+        </tr>
+    </table>
+</div>
+
+@section Scripts
+{
+    <script>
+        function CalcAmt() {
+          
+            $("#amount").removeClass('errorClass');
+            if ($("#amount").val() == 0)
+            {
+                $(".summary").hide();
+                $("#amount").addClass('errorClass');
+            }
+            else
+            {
+                $(".summary").show();
+                $('#TransfrAmt').text("$" + $("#amount").val() + " NZD");
+                $('#ExchangeRate').text($("#Rate").val());
+                var amt = ($("#Rate").val() * $("#amount").val()) + 2.0;
+                $('#Totalcost').text("$" + amt);
+                $("#ReceivedAmt").val($("#Rate").val() * $("#amount").val());
+            }
+           
+        }
+        $("#Country").on('change', function () {
+            $("#Country").removeClass('errorClass');
+            var getValue = $(this).val();
+            if (getValue==0)
+            {
+                $("#Country").addClass('errorClass');
+               // alert("test");
+               }
+            else{
+
+                $.ajax({
+                    url: "@Url.Action("GetRates" , "Exchange")",
+                    data: { id: getValue },
+                    type: "Post",
+                    dataType: "html",
+
+                    success: function (data) {
+                        debugger
+                        data = JSON.parse(data);
+                        $("#Rate").val(data);
+
+                    }
+                    ,
+                    error: function (data) {
+                        alert("error", data.responseText);
+                    }
+                });
+            }
+
+                
+           
+        });
+
+    </script>
+  
+}
+

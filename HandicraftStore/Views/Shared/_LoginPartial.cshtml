@@ -1,0 +1,85 @@
+﻿@using HandicraftStore.Data;
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+
+<ul class="navbar-nav flex-grow-1">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        @if (User.IsInRole("Administrator"))
+        {
+
+            <li class="nav-item">
+                <a class="dropdown-item" asp-controller="Product" asp-action="Index">Manage Handicrafts</a>
+            </li>
+            <li class="nav-item">
+                <a class="dropdown-item" asp-controller="Orders" asp-action="Index">Process Orders</a>
+            </li>
+            <li class="nav-item">
+                <a class="dropdown-item" asp-controller="Orders" asp-action="ViewProcessedOrder">Order History</a>
+            </li>
+            <li class="nav-item">
+                <a class="dropdown-item" asp-controller="Exchange" asp-action="Index">Exchange Rate</a>
+            </li>
+            <li class="nav-item">
+                <a class="dropdown-item" asp-controller="Account" asp-action="Index">Manage User</a>
+            </li>
+
+
+        }
+        else
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Orders" asp-action="ProductList">HandiCraft</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Exchange" asp-action="Agent">Money Exchange</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Orders" asp-action="ViewProcessedOrderByCustomer">Order Status</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact</a>
+            </li>
+
+
+        }
+    }
+</ul>
+
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+
+
+
+
+
+
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+        </li>
+        <li class="nav-item">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark1" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+    }
+</ul>
+
+@*<ul class="navbar-nav collapse d-sm-inline-flex justify-content-between">
+
+</ul>*@

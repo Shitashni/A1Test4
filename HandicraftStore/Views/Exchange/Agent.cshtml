@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<div class="bg-gray-100" id="send-now-option-panel">
+    <div class="max-w-7xl mx-auto pb-0 py-5 px-4 sm:px-6 lg:px-8">
+        <h1 class="text-center text-4xl font-bold klickex-blue-text">
+            Select the Mobile Network you want to send to
+        </h1>
+
+        <div class="mt-6 grid grid-cols-1 gap-2 sm:grid-cols-1 md:grid-cols-8">
+            <div class="col-span-1 flex justify-center sm:mb-8 md:col-span-2">
+                <a asp-action="Calculator" asp-controller="Exchange">
+                    <img class="h-24 mt-10 md:h-20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" src="/images/digicel.png" alt="Digicel">
+                </a>
+            </div>
+            <div class="col-span-1 flex justify-center sm:mb-8 md:col-span-2">
+                <a asp-action="Calculator" asp-controller="Exchange">
+                    <img class="h-24 mt-10 md:h-20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110" src="/images/vodafone.png" alt="Vodafone">
+                </a>
+            </div>
+
+            
+        </div>
+    </div>
+</div>

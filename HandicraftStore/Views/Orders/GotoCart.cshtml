@@ -1,0 +1,100 @@
+﻿@model IEnumerable<HandicraftStore.Models.Orders>
+
+@{
+    ViewData["Title"] = "GotoCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Cart Items</h3>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            
+            <th style="display: none;">
+                @Html.DisplayNameFor(model => model.Products)
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+               Amount
+            </th>
+   
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+           
+                <td style="display: none;">
+                    @Html.DisplayFor(modelItem => item.Products.Id)
+            </td>
+                <td>
+                    <img src="~/Images/@item.Products.ImageUrl" style="width:75px;height:75px;" />
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Products.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+               
+
+            <td>
+               
+                   @* <a asp-action="Delete" asp-controller="Orders" asp-route-id="@item.Id">Delete</a>*@
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger ml-1">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<br />
+<p style="font-weight: bolder; font-family:Calibri; color:red">Total Cost: <input type="text" value=@ViewBag.TotalCost class="fw-bold" readonly style="color: red;  width:130px ; font-family:Calibri;" /></p>
+
+<br />
+<div>
+ 
+    <a asp-action="FinalizeOrder"  class="btn btn-primary">Check Out</a> |
+    <a asp-action="ProductList" class="btn btn-secondary">Back to List</a>
+</div>
+
+
+@section Scripts {
+    <script>
+        //$(document).ready(function () {
+        //    var total = 0;
+        //    $('#table td').each(function () {
+        //        alert($("#Amount").val());
+        //        total += $("#Amount").val();
+        //     });
+        //alert(total);
+        //});
+       
+        function UpdateOrderStatus( stat) {
+
+            $.ajax({
+                url: "@Url.Action("FinalizeOrder", "Orders")",
+                type: "POST",
+                data: {  Orderstatus: stat },
+                //
+                //success: function (data) {
+                //    alert(data);
+                //}
+                //,
+                //error: function (data) {
+                //    alert("error", data.responseText);
+                //}
+            });
+        }
+
+    </script>
+
+}

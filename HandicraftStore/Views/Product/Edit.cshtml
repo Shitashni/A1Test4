@@ -1,0 +1,67 @@
+﻿@model HandicraftStore.Models.Product
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<hr />
+
+
+            <h4>Edit Product</h4>
+
+            <form asp-action="Edit" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="row">
+                    <div class="form-group col-md-8">
+                        <label asp-for="Description" class="control-label"></label>
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="Amount" class="control-label"></label>
+                        <input asp-for="Amount" class="form-control" />
+                        <span asp-validation-for="Amount" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                      @*  <img src="~/images/Model.ImageUrl" class="rounded-circle" height="40" width="40" asp-append-version="true" />*@
+                        <img decoding="async" src="@("~/images/"+Model.ImageUrl)" asp-append-version="true" width="250px" height="250px" />
+                        <input asp-for="imagepath" style="display:none;" />
+                        <vc:image-uploader field-name="@nameof(Model.CraftImage)">
+                        </vc:image-uploader>
+                    </div>
+            
+                    <div class="col-12 btn-group">
+                        <div class="col-1 form-group text-right p-2">
+                            <a asp-action="Index" class="btn btn-secondary">Back</a>
+                        </div>
+                        <div class="col-1 form-group text-right p-2">
+                            <input type="submit" value="Save" class="btn btn-primary" />
+                        </div>
+                        <div class="col-10 form-group text-right p-2">
+                        </div>
+                    </div>
+
+              
+                </div>
+                   
+                 </form>
+
+<div class="row">
+    <div class="col-md-4">
+       
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script type="text/javascript">
+        $(".custom-file-input").on("change", function () {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+    </script>
+}

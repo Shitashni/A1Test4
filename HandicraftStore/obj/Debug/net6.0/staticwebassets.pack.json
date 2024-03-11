@@ -1,0 +1,517 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HandicraftStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HandicraftStore.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\04b71431-6ea6-4878-b9e7-a673d8ba0377_Craft3.png",
+      "PackagePath": "staticwebassets\\images\\04b71431-6ea6-4878-b9e7-a673d8ba0377_Craft3.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\0508a341-5f86-4aa3-9a9c-b79a267ff950_images.jfif",
+      "PackagePath": "staticwebassets\\images\\0508a341-5f86-4aa3-9a9c-b79a267ff950_images.jfif"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\1b99f493-d6a2-40ac-9635-85f7e83b3e6b_noimage.png",
+      "PackagePath": "staticwebassets\\images\\1b99f493-d6a2-40ac-9635-85f7e83b3e6b_noimage.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\221ab204-10b9-417c-8e22-2772713f83d9_Craft4.png",
+      "PackagePath": "staticwebassets\\images\\221ab204-10b9-417c-8e22-2772713f83d9_Craft4.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\336864df-d1c3-4758-9527-0f2344497c23_0051062_jute-rope-bread-basket-fruit-basket-natural-white-two-tone-small-dia-28_360.jpeg",
+      "PackagePath": "staticwebassets\\images\\336864df-d1c3-4758-9527-0f2344497c23_0051062_jute-rope-bread-basket-fruit-basket-natural-white-two-tone-small-dia-28_360.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\782ca312-ac68-456f-94e2-ff606b522e8e_Craft5.jpg",
+      "PackagePath": "staticwebassets\\images\\782ca312-ac68-456f-94e2-ff606b522e8e_Craft5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\7ddb946a-9e34-4683-8fd5-802a0fefcd50_Craft1.png",
+      "PackagePath": "staticwebassets\\images\\7ddb946a-9e34-4683-8fd5-802a0fefcd50_Craft1.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\7f10ee85-02d0-4555-80eb-dd94bcd36c92_Wall-Basket.webp",
+      "PackagePath": "staticwebassets\\images\\7f10ee85-02d0-4555-80eb-dd94bcd36c92_Wall-Basket.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\8cba66a1-3c88-4972-8dae-5458a8ff1ce3_images.jfif",
+      "PackagePath": "staticwebassets\\images\\8cba66a1-3c88-4972-8dae-5458a8ff1ce3_images.jfif"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\a1442404-9a5f-4047-8dd6-74b5772e14d2_images.jfif",
+      "PackagePath": "staticwebassets\\images\\a1442404-9a5f-4047-8dd6-74b5772e14d2_images.jfif"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\a9e829f7-fc41-40fc-aeae-9fcd2e8e8bad_images.jfif",
+      "PackagePath": "staticwebassets\\images\\a9e829f7-fc41-40fc-aeae-9fcd2e8e8bad_images.jfif"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\b2bf69a3-fee7-4328-9d82-5bf2ef2eb74d_Craft6.jpeg",
+      "PackagePath": "staticwebassets\\images\\b2bf69a3-fee7-4328-9d82-5bf2ef2eb74d_Craft6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\b711fe55-9874-48cd-b4f6-ac95a18c993a_Craft2.png",
+      "PackagePath": "staticwebassets\\images\\b711fe55-9874-48cd-b4f6-ac95a18c993a_Craft2.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\bb598ef0-f1e8-4f5f-8523-39f3734ff0c6_0051062_jute-rope-bread-basket-fruit-basket-natural-white-two-tone-small-dia-28_360.jpeg",
+      "PackagePath": "staticwebassets\\images\\bb598ef0-f1e8-4f5f-8523-39f3734ff0c6_0051062_jute-rope-bread-basket-fruit-basket-natural-white-two-tone-small-dia-28_360.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\digicel.png",
+      "PackagePath": "staticwebassets\\images\\digicel.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\e18424c8-60fc-43b8-b104-34674009269f_Craft78.jpeg",
+      "PackagePath": "staticwebassets\\images\\e18424c8-60fc-43b8-b104-34674009269f_Craft78.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\e7637953-92fe-4852-b8d8-dec8beb5b871_Craft7.jpeg",
+      "PackagePath": "staticwebassets\\images\\e7637953-92fe-4852-b8d8-dec8beb5b871_Craft7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\images2.jfif",
+      "PackagePath": "staticwebassets\\images\\images2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\images\\vodafone.png",
+      "PackagePath": "staticwebassets\\images\\vodafone.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Documents\\SOFT703 Assignment\\A1\\Final Submit\\20230806-HandicraftStore\\HandicraftStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HandicraftStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HandicraftStore.props",
+      "PackagePath": "build\\HandicraftStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HandicraftStore.props",
+      "PackagePath": "buildMultiTargeting\\HandicraftStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HandicraftStore.props",
+      "PackagePath": "buildTransitive\\HandicraftStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

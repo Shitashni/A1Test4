@@ -1,0 +1,84 @@
+﻿@model HandicraftStore.Models.Product
+
+@{
+    ViewData["Title"] = "ViewProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-3">
+            <img src="~/Images/@Model.ImageUrl" style="width:200px;height:200px;" />
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2">
+            <div class="row">
+                <div class="col-xs-12" >
+                    @Html.DisplayNameFor(model => model.Description)
+                </div>
+                <div class="col-xs-12">
+                    @Html.DisplayNameFor(model => model.Amount)
+                </div>
+                <div class="col-xs-12">
+                   Quantity
+                </div>
+ 
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <a asp-action="ProductList" class="btn btn-sm btn-info">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3">
+            <div class="row">
+                <div class="col-xs-12">
+                    @Html.DisplayFor(model => model.Description)
+                </div>
+                <div class="col-xs-12">
+                    @Html.DisplayFor(model => model.Amount)
+                </div>
+                <div class="col-xs-12">
+                    @Html.DisplayFor(model => model.Description)
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-2">
+            <div class="row">
+                <div class="col-xs-12">
+                   Items
+                </div>
+                <div class="col-xs-12">
+                   Subtotal
+                </div>
+                <div class="col-xs-12">
+                    <a asp-action="ProductList" class="btn btn-sm btn-primary">Check out</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2">
+            <div class="row">
+                <div class="col-xs-12">
+                    Items
+                </div>
+                <div class="col-xs-12">
+                    @Html.DisplayFor(model => model.Amount)
+                </div>
+                <div class="col-xs-12">
+                   jjj
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    
+</div>
+<br/>
+<br />
+<div>
+  
+    <a asp-action="ProductList">Back to List</a>
+</div>
